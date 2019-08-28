@@ -1,0 +1,45 @@
+---
+title: "PUT TITLE HERE"
+subtitle: "PUT SUBTITLE HERE"
+date: "`r Sys.Date()`"
+author: "Alan Ho"
+  
+output:
+  pdf_document: default
+  
+header-includes:
+    \usepackage{fancyhdr}
+    \usepackage{float} 
+    \usepackage{morefloats} 
+    \floatplacement{figure}{h}
+    \maxdeadcycles=200
+    \usepackage{makeidx}
+    
+    
+abstract: CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT
+ CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT
+  CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT
+   CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT
+    CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT
+     CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT
+    
+bibliography: ../../citations.bib
+---
+
+
+
+\addtolength{\headheight}{1.0cm} 
+\pagestyle{fancyplain}
+\rhead{\includegraphics[height=1.2cm]{../../qbi_logo.png}} 
+\renewcommand{\headrulewidth}{0pt}
+
+\newpage
+
+\tableofcontents
+
+\listoffigures
+\listoftables
+
+\newpage
+
+Ibrahim [@Ibrahim2010]
